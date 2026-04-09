@@ -427,7 +427,7 @@ if __name__ == "__main__":
 
     # Usage:
     #   python lanes2.py image          → test on test_image.jpg
-    #   python lanes2.py                → run on test2.mp4 (default)
+    #   python lanes2.py                → run on media/test2.mp4 (default)
     #   python lanes2.py /dev/video0    → run on live webcam
 
     if len(sys.argv) > 1 and sys.argv[1] == "image":
